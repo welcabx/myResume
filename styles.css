@@ -11,4 +11,18 @@ body {
   background: #f8fafc;
   color: #3b3030;
   margin: auto;
+  padding: 1in;
+}
+
+
+.fullname {
+  font-size: 2rem;
+  background: red;
+
+}
+
+
+.contact-info {
+  display: flex;
+  background: blue;
 }
