@@ -29,7 +29,3 @@ body {
   display: flex;
   gap: 5px;
 }
-
-.contact-info .phone {
-  border-left: 6px solid red;
-}
