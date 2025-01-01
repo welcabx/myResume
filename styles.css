@@ -10,8 +10,8 @@ body {
 
 
 .page1 {
-  width: 50%;
-  height: 100vh;
+  width: 8.5in;
+  height: 11in;
   background: #f8fafc;
   color: #3b3030;
   margin: auto;
@@ -27,4 +27,9 @@ body {
 
 .contact-info {
   display: flex;
+  gap: 5px;
+}
+
+.contact-info .phone {
+  border-left: 6px solid red;
 }
