@@ -1,10 +1,16 @@
+:root {
+  --black: #3b3030;
+  --blue: #1167b1;
+}
+
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Calibri', sans-serif;
 }
 
 body {
-  background-color: #1167b1;
+  background-color: var(--blue);
   padding: 20px 0;
 }
 
@@ -13,7 +19,7 @@ body {
   width: 8.5in;
   height: 11in;
   background: #f8fafc;
-  color: #3b3030;
+  color: var(--black);
   margin: auto;
   padding: 1in;
 }
@@ -21,11 +27,30 @@ body {
 
 .fullname {
   font-size: 2rem;
-
 }
 
 
-.contact-info {
+.contact-info > ul {
+  list-style-type: none;
   display: flex;
-  gap: 5px;
+}
+
+.contact-info > ul > li {
+  margin-right: 5px;
+  padding-right: 5px;
+  border-right: solid var(--black) 1px;
+
+}
+
+.contact-info > ul > li:last-of-type {
+  border-right: none;
+}
+
+.profile {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.tech-skills > ul {
+  list-style-type: none;
 }
