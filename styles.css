@@ -54,3 +54,7 @@ body {
 .tech-skills > ul {
   list-style-type: none;
 }
+
+h2 {
+  color: var(--blue);
+}
