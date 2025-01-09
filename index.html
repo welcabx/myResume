@@ -73,8 +73,13 @@ MS Teams, MS Excel, Google Cloud, MySQL, HyperV, PacketTracer, Sierra</li>
       </section>
     </section>
     <section class="zoom-buttons">
-      <button type="button" name="button">zoom in</button>
-      <button type="button" name="button">zoom out</button>
+      <button class="zoomin-button" onclick="zoomIn()">zoom in</button>
+      <button class="zoomout-button">zoom out</button>
     </section>
   </body>
+  <script>
+    function zoomIn() {
+      document.body.classList.toggle('zoom-in');
+    }
+  </script>
 </html>

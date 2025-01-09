@@ -23,6 +23,7 @@ body {
   margin: auto;
   padding: 1in;
   box-shadow: 5px 5px 10px;
+  transition: transform 0.3s ease;
 }
 
 
@@ -93,4 +94,29 @@ h2 {
 
 .jobs > p > span {
   font-weight: bold;
+}
+
+.zoom-buttons {
+  position: fixed;
+  right: calc((100vw - 8.5in ) / 4);
+  bottom: 50px;
+}
+
+.zoom-buttons > button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  width: 100px;
+}
+
+.zoomin-button {
+  border-radius: 50px 0 0 50px;
+}
+
+.zoomout-button {
+  border-radius: 0 50px 50px 0;
+}
+
+.zoom-in {
+  transform: scale(1.2);
 }
