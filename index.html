@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <section class="page1">
+    <section id="page1">
       <section class="fullname">
         <h1>Rowel Cababan</h1>
       </section>
@@ -72,9 +72,13 @@ MS Teams, MS Excel, Google Cloud, MySQL, HyperV, PacketTracer, Sierra</li>
         </ul>
       </section>
     </section>
-    <section class="zoom-buttons">
-      <button class="zoomin-button" onclick="zoomIn()">zoom in</button>
-      <button class="zoomout-button">zoom out</button>
+    <section class="zoom-section">
+      <button class="zoom-button" onclick="zoom()">ZOOM</button>
     </section>
   </body>
+  <script>
+    function zoom() {
+      document.getElementById('page1').classList.toggle("zooming");
+    }
+  </script>
 </html>
